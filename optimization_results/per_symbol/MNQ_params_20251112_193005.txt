@@ -1,0 +1,17 @@
+============================================================
+OPTIMIZED PARAMETERS FOR MNQ
+============================================================
+
+Optimization Metric: composite
+Best Value: 17.2172
+
+Parameters:
+  ema_fast = 30
+  ema_slow = 47
+  rsi_period = 16
+  rsi_overbought = 74.4860
+  rsi_oversold = 26.0995
+  atr_period = 13
+  atr_stop_multiplier = 1.7393
+  atr_target_multiplier = 4.0093
+  min_atr_threshold = 0.9031

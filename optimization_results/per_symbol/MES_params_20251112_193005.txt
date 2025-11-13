@@ -1,0 +1,17 @@
+============================================================
+OPTIMIZED PARAMETERS FOR MES
+============================================================
+
+Optimization Metric: composite
+Best Value: 14.2294
+
+Parameters:
+  ema_fast = 29
+  ema_slow = 79
+  rsi_period = 20
+  rsi_overbought = 78.9337
+  rsi_oversold = 27.7608
+  atr_period = 17
+  atr_stop_multiplier = 1.5644
+  atr_target_multiplier = 4.9256
+  min_atr_threshold = 0.9097

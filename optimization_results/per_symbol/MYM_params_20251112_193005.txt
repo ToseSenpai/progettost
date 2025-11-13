@@ -1,0 +1,17 @@
+============================================================
+OPTIMIZED PARAMETERS FOR MYM
+============================================================
+
+Optimization Metric: composite
+Best Value: 10.0969
+
+Parameters:
+  ema_fast = 17
+  ema_slow = 97
+  rsi_period = 18
+  rsi_overbought = 73.9799
+  rsi_oversold = 22.3403
+  atr_period = 11
+  atr_stop_multiplier = 1.5871
+  atr_target_multiplier = 5.5985
+  min_atr_threshold = 0.9416

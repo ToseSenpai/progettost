@@ -1,0 +1,17 @@
+============================================================
+OPTIMIZED PARAMETERS FOR MGC
+============================================================
+
+Optimization Metric: composite
+Best Value: 10.3035
+
+Parameters:
+  ema_fast = 10
+  ema_slow = 89
+  rsi_period = 15
+  rsi_overbought = 78.7361
+  rsi_oversold = 20.5994
+  atr_period = 14
+  atr_stop_multiplier = 1.9047
+  atr_target_multiplier = 4.6975
+  min_atr_threshold = 1.3118

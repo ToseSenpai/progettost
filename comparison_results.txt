@@ -1,0 +1,109 @@
+
+
+============================================================
+     STRATEGY COMPARISON TEST
+============================================================
+
+[*] This will compare:
+    1. Classic Strategy (EMA/RSI/ATR)
+    2. Volumetric Strategy (VWAP/MFI/VD/ST)
+
+[*] Symbol: MET
+[*] Timeframe: 5min
+[*] Lookback: 90 days
+
+Run comparison? (y/n): 
+============================================================
+STRATEGY COMPARISON: CLASSIC vs VOLUMETRIC
+============================================================
+
+[1/2] Testing CLASSIC strategy (EMA/RSI/ATR)...
+============================================================
+BACKTESTING ENGINE
+============================================================
+
+Symbols: MET
+Lookback: 90 days
+Initial Capital: $10,000.00
+Strategy: Trend Following EMA-RSI-ATR
+
+[*] Initializing data...
+[OK] Data Manager initialized
+
+[*] Downloading 90 days of 5min data for MET...
+  [OK] Downloaded 4373 bars for MET
+  [*] Date range: 2025-10-19 17:00:00-05:00 to 2025-11-12 15:20:00-06:00
+
+[*] Running simulation...
+
+[*] Calculating statistics...
+
+============================================================
+BACKTEST RESULTS SUMMARY
+============================================================
+
+[*] Performance:
+  Initial Capital:     $   10,000.00
+  Final Equity:        $   14,695.00
+  Total Return:               46.95%
+  Net Profit:          $    4,695.00
+
+[*] Trade Statistics:
+  Total Trades:                  10
+  Winning Trades:                 8
+  Losing Trades:                  2
+  Win Rate:                   80.00%
+
+[*] P&L Analysis:
+  Gross Profit:        $    5,010.00
+  Gross Loss:          $      315.00
+  Profit Factor:              15.90
+  Average Win:         $      626.25
+  Average Loss:        $      157.50
+  Average Trade:       $      469.50
+
+[!] Risk Metrics:
+  Max Drawdown:               -2.72%
+  Sharpe Ratio:                0.72
+  Expectancy:          $      469.50
+
+[*] Streaks:
+  Max Win Streak:                 5
+  Max Loss Streak:                1
+
+[*] Costs:
+  Total Commission:    $       25.00
+
+============================================================
+
+[*] Cleaning up Data Manager...
+  [OK] Closed ProjectX client
+[OK] Classic strategy completed
+
+[2/2] Testing VOLUMETRIC strategy (VWAP/MFI/VD/ST)...
+============================================================
+BACKTESTING ENGINE
+============================================================
+
+Symbols: MET
+Lookback: 90 days
+Initial Capital: $10,000.00
+Strategy: Volumetric Strategy
+
+[*] Initializing data...
+[OK] Data Manager initialized
+
+[*] Downloading 90 days of 5min data for MET...
+  [OK] Downloaded 4373 bars for MET
+  [*] Date range: 2025-10-19 17:00:00-05:00 to 2025-11-12 15:20:00-06:00
+
+[*] Running simulation...
+
+[*] Calculating statistics...
+[ERROR] Volumetric strategy failed: Cannot subtract tz-naive and tz-aware datetime-like objects.
+
+============================================================
+STRATEGY COMPARISON RESULTS
+============================================================
+
+============================================================

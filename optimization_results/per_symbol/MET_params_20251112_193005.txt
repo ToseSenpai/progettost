@@ -1,0 +1,17 @@
+============================================================
+OPTIMIZED PARAMETERS FOR MET
+============================================================
+
+Optimization Metric: composite
+Best Value: 29.6694
+
+Parameters:
+  ema_fast = 12
+  ema_slow = 93
+  rsi_period = 16
+  rsi_overbought = 68.3662
+  rsi_oversold = 28.4704
+  atr_period = 14
+  atr_stop_multiplier = 1.9327
+  atr_target_multiplier = 3.9803
+  min_atr_threshold = 0.2742

@@ -1,0 +1,12 @@
+symbol,total_return_pct,sharpe_ratio,profit_factor,win_rate_pct,total_trades,winning_trades,losing_trades,avg_win,avg_loss,max_drawdown_pct,expectancy,total_pnl,final_capital,error
+MNQ,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'final_capital'
+MGC,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'final_capital'
+MYM,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'final_capital'
+MBT,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'final_capital'
+MET,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'final_capital'
+MHG,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'initial_capital'
+MCL,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'initial_capital'
+SIL,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'initial_capital'
+MES,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'final_capital'
+M6A,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'initial_capital'
+M6E,0,0,0,0,0,0,0,0,0,0,0,0,10000.0,'initial_capital'

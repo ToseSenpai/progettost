@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy .env.template .env)",
+      "Bash(copy \"c:\\Users\\itose\\progettost\\.env.template\" \"c:\\Users\\itose\\progettost\\.env\")",
+      "Bash(python test_connection.py:*)",
+      "Bash(python run_backtest.py:*)",
+      "Bash(python:*)",
+      "Bash(timeout 120 python:*)",
+      "Bash(pip install:*)",
+      "Bash(dir /B /O-D optimization_resultsper_symbolcomparison_*.json 2)",
+      "Bash(nul)",
+      "Bash(timeout 180 python:*)",
+      "Bash(timeout 300 python:*)",
+      "Bash(findstr:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(dir nul)",
+      "Bash(del \"\\?\\C:\\Users\\itose\\progettost\\nul\")",
+      "Bash(powershell -Command \"Remove-Item ''\\?\\C:\\Users\\itose\\progettost\\nul'' -Force\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

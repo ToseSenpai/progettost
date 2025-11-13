@@ -1,0 +1,20 @@
+============================================================
+OPTIMIZED PARAMETERS FOR MET (5min)
+============================================================
+
+Timeframe: 5min
+Best Score: 72.7306
+Max Drawdown Limit: 3.0%
+
+Parameters:
+  ema_fast = 12
+  ema_slow = 92
+  rsi_period = 12
+  rsi_overbought = 76.5529
+  rsi_oversold = 32.8699
+  atr_period = 13
+  atr_stop_multiplier = 1.6518
+  atr_target_multiplier = 4.4606
+  min_atr_threshold = 0.6334
+
+Risk/Reward Ratio: 1:2.70

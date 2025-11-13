@@ -1,0 +1,17 @@
+============================================================
+OPTIMIZED PARAMETERS FOR MBT
+============================================================
+
+Optimization Metric: composite
+Best Value: 53.0630
+
+Parameters:
+  ema_fast = 23
+  ema_slow = 60
+  rsi_period = 10
+  rsi_overbought = 69.6647
+  rsi_oversold = 24.8777
+  atr_period = 18
+  atr_stop_multiplier = 2.4563
+  atr_target_multiplier = 5.6616
+  min_atr_threshold = 0.7611

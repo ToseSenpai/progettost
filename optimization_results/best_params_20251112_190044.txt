@@ -1,0 +1,17 @@
+============================================================
+BEST PARAMETERS
+============================================================
+
+Optimization Metric: composite
+Best Value: 19.2285
+
+Parameters:
+  ema_fast = 14
+  ema_slow = 77
+  rsi_period = 20
+  rsi_overbought = 69.4404
+  rsi_oversold = 20.0930
+  atr_period = 12
+  atr_stop_multiplier = 1.7461
+  atr_target_multiplier = 4.9932
+  min_atr_threshold = 0.3384

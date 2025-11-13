@@ -1,0 +1,19 @@
+============================================================
+SCALPING PARAMETERS FOR MET
+============================================================
+
+Timeframe: 1min
+Best Score: -inf
+
+Parameters:
+  ema_fast = 9
+  ema_slow = 49
+  rsi_period = 18
+  rsi_overbought = 73.9799
+  rsi_oversold = 22.3403
+  atr_period = 11
+  atr_stop_multiplier = 0.8697
+  atr_target_multiplier = 3.2324
+  min_atr_threshold = 0.6410
+
+Risk/Reward Ratio: 1:3.72
