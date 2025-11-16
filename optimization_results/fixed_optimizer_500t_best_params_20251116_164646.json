@@ -1,0 +1,37 @@
+{
+  "best_params": {
+    "min_volume_imbalance": 0.21283246856618604,
+    "delta_slope_period": 119,
+    "buy_sell_long_threshold": 1.317283724716514,
+    "buy_sell_short_threshold": 0.7925871600294755,
+    "buy_sell_exit_long": 0.5789011272363682,
+    "buy_sell_exit_short": 1.1783128905911708,
+    "min_confluence": 0.828220808960481,
+    "stop_multiplier": 1.927362359661166,
+    "exit_confluence_threshold": 0.7482306382359896
+  },
+  "best_objective_score": 0.054714090531457156,
+  "objective_function": "FIXED: Profit Factor (40%) + Win Rate (35%) + Return (25%) with HARD FILTER (PF >= 1.0)",
+  "metrics": {
+    "return_pct": -50.554285267709055,
+    "total_trades": 1913,
+    "win_rate": 32.93256664924203,
+    "profit_factor": 0.9397058335999331,
+    "max_drawdown_pct": -79.15367224283702
+  },
+  "optimization_info": {
+    "tick_interval": "500t",
+    "n_trials": 100,
+    "actual_trials": 100,
+    "n_workers": 10,
+    "trials_per_worker": 10,
+    "duration_minutes": 15.364643916666667,
+    "timestamp": "20251116_164646",
+    "study_name": "fixed_optimizer_20251116_163123",
+    "database": "optuna_fixed_optimizer_20251116_163123.db",
+    "strategy": "FIXED Optimizer - Pure Volumetric (Order Flow Only, Profit Factor Priority)",
+    "optimization_mode": "Multiprocessing (SQLite RDBStorage)",
+    "target": "FIXED: PF \u2265 1.0 (HARD FILTER), then optimize PF 40% + WR 35% + Return 25%, target WR 40%+, RR 2:1",
+    "improvements": "Volume Profile, VWAP Bands, CVD Divergence, 3:1 Ratio, RTH Filter, Confluence Exit, RR 2:1"
+  }
+}

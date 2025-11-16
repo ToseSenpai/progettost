@@ -1,0 +1,31 @@
+{
+  "best_params": {
+    "min_volume_imbalance": 0.24348046106026125,
+    "strong_imbalance": 0.43498131813943397,
+    "delta_slope_period": 140,
+    "min_stacked_bars": 5,
+    "stacked_threshold": 0.1812004716292573,
+    "buy_sell_long_threshold": 1.138532660884965,
+    "buy_sell_short_threshold": 0.8274264108276355,
+    "buy_sell_exit_long": 0.7510088457936991,
+    "buy_sell_exit_short": 1.1753901256578896,
+    "volume_ratio_threshold": 2.4610492496502063,
+    "min_confluence": 0.8295093252212593,
+    "stop_multiplier": 1.1765733382566044,
+    "target_multiplier": 3.944303824162807
+  },
+  "best_sharpe": 0.0821021803778147,
+  "metrics": {
+    "return_pct": 7.590657030859875,
+    "total_trades": 19,
+    "win_rate": 57.89473684210527,
+    "profit_factor": 4.268835499982201,
+    "max_drawdown_pct": -1.221855597048969
+  },
+  "optimization_info": {
+    "n_trials": 200,
+    "duration_minutes": 45.87563245,
+    "timestamp": "20251115_234148",
+    "strategy": "PURE Volumetric (Order Flow Only)"
+  }
+}

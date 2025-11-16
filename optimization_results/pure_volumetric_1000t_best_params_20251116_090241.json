@@ -1,0 +1,34 @@
+{
+  "best_params": {
+    "min_volume_imbalance": 0.20416710014960635,
+    "strong_imbalance": 0.42299428215070045,
+    "delta_slope_period": 123,
+    "min_stacked_bars": 4,
+    "stacked_threshold": 0.24155882614217342,
+    "buy_sell_long_threshold": 1.59333223274694,
+    "buy_sell_short_threshold": 0.7052405899626194,
+    "buy_sell_exit_long": 0.7023018330620379,
+    "buy_sell_exit_short": 1.0387890982884396,
+    "volume_ratio_threshold": 2.3882523701753255,
+    "min_confluence": 0.9132783632856769,
+    "stop_multiplier": 1.277279940272443,
+    "target_multiplier": 5.820096138760885
+  },
+  "best_sharpe": -0.28684053110880614,
+  "metrics": {
+    "return_pct": -35.63223699303693,
+    "total_trades": 1285,
+    "win_rate": 37.04280155642024,
+    "profit_factor": 0.8786267068957765,
+    "max_drawdown_pct": -46.61895823167206
+  },
+  "optimization_info": {
+    "n_trials": 300,
+    "n_workers": 12,
+    "trials_per_worker": 25,
+    "duration_minutes": 9.140338750000002,
+    "timestamp": "20251116_090241",
+    "strategy": "PURE Volumetric (Order Flow Only)",
+    "optimization_mode": "Multiprocessing (SQLite RDBStorage)"
+  }
+}

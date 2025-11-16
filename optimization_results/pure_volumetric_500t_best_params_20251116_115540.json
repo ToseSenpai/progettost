@@ -1,0 +1,36 @@
+{
+  "best_params": {
+    "min_volume_imbalance": 0.11468882605842083,
+    "strong_imbalance": 0.4369672464664113,
+    "delta_slope_period": 206,
+    "min_stacked_bars": 2,
+    "stacked_imbalance_ratio": 3.3852159419956305,
+    "buy_sell_long_threshold": 1.4227042427115058,
+    "buy_sell_short_threshold": 0.5665066171443081,
+    "buy_sell_exit_long": 0.8392751619128284,
+    "buy_sell_exit_short": 1.2662341118001372,
+    "volume_ratio_threshold": 2.2715987229071026,
+    "min_confluence": 0.8974880436379368,
+    "stop_multiplier": 1.2753049872679252,
+    "target_multiplier": 2.4046785715968984
+  },
+  "best_sharpe": -0.05125591168127607,
+  "metrics": {
+    "return_pct": -17.855424364699722,
+    "total_trades": 917,
+    "win_rate": 35.55070883315158,
+    "profit_factor": 0.9123556498873912,
+    "max_drawdown_pct": -20.64160510336106
+  },
+  "optimization_info": {
+    "tick_interval": "500t",
+    "n_trials": 504,
+    "n_workers": 12,
+    "trials_per_worker": 42,
+    "duration_minutes": 1.5958011166666668,
+    "timestamp": "20251116_115540",
+    "strategy": "PURE Volumetric (Order Flow Only) - IMPROVED with Research",
+    "optimization_mode": "Multiprocessing (SQLite RDBStorage)",
+    "improvements": "Volume Profile, VWAP Bands, CVD Divergence, 3:1 Ratio, RTH Filter, Confluence Exit"
+  }
+}

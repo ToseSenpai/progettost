@@ -1,0 +1,123 @@
+{
+  "comparison_timestamp": "20251116_221803",
+  "baseline_params_file": "optimization_results\\fixed_optimizer_500t_best_params_20251116_173532.json",
+  "results": [
+    {
+      "timeframe": "M1",
+      "total_return": 1372.466590830707,
+      "return_pct": 68.62332954153536,
+      "final_capital": 3372.466590830707,
+      "total_trades": 170,
+      "win_rate": 31.176470588235293,
+      "profit_factor": 1.1814187818497452,
+      "max_drawdown_pct": -72.3979611382514,
+      "sharpe_ratio": 0.04389078237563603,
+      "avg_win": 168.63492981686102,
+      "avg_loss": -64.65969820053783,
+      "total_commission": 127.5,
+      "composite_score": 0.847577145945727
+    },
+    {
+      "timeframe": "M2",
+      "total_return": 1408.371567351729,
+      "return_pct": 70.41857836758645,
+      "final_capital": 3408.371567351729,
+      "total_trades": 78,
+      "win_rate": 30.76923076923077,
+      "profit_factor": 1.3412704878036141,
+      "max_drawdown_pct": -19.167798061120266,
+      "sharpe_ratio": 0.06803769352336556,
+      "avg_win": 230.63416540303965,
+      "avg_loss": -76.42311856150411,
+      "total_commission": 58.5,
+      "composite_score": 1.0
+    },
+    {
+      "timeframe": "M3",
+      "total_return": -844.2619651973655,
+      "return_pct": -42.213098259868275,
+      "final_capital": 1155.7380348026345,
+      "total_trades": 34,
+      "win_rate": 20.588235294117645,
+      "profit_factor": 0.6726587006479431,
+      "max_drawdown_pct": -53.74878958778536,
+      "sharpe_ratio": -0.03689646099489187,
+      "avg_win": 247.84099638086212,
+      "avg_loss": -95.52403480975556,
+      "total_commission": 25.5,
+      "composite_score": -0.25201961086105323
+    },
+    {
+      "timeframe": "M4",
+      "total_return": -210.94667258649133,
+      "return_pct": -10.547333629324566,
+      "final_capital": 1789.0533274135087,
+      "total_trades": 16,
+      "win_rate": 12.5,
+      "profit_factor": 0.8371127129519769,
+      "max_drawdown_pct": -27.680574166893745,
+      "sharpe_ratio": -0.002761956666700077,
+      "avg_win": 542.0501027959544,
+      "avg_loss": -92.5033484413143,
+      "total_commission": 12.0,
+      "composite_score": 0.11514519739387127
+    },
+    {
+      "timeframe": "M5",
+      "total_return": -1445.2871178712376,
+      "return_pct": -72.26435589356188,
+      "final_capital": 554.7128821287624,
+      "total_trades": 12,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "max_drawdown_pct": -72.26435589356188,
+      "sharpe_ratio": -0.2791070912400157,
+      "avg_win": 0.0,
+      "avg_loss": -120.44059315593647,
+      "total_commission": 9.0,
+      "composite_score": -1.6411572375713455
+    },
+    {
+      "timeframe": "M10",
+      "total_return": -348.41926270564727,
+      "return_pct": -17.420963135282364,
+      "final_capital": 1651.5807372943527,
+      "total_trades": 2,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "max_drawdown_pct": -17.420963135282364,
+      "sharpe_ratio": -0.16729210086678786,
+      "avg_win": 0.0,
+      "avg_loss": -174.20963135282364,
+      "total_commission": 1.5,
+      "composite_score": -0.8366011283484649
+    }
+  ],
+  "best_overall": {
+    "timeframe": "M2",
+    "metrics": {
+      "timeframe": "M2",
+      "total_return": 1408.371567351729,
+      "return_pct": 70.41857836758645,
+      "final_capital": 3408.371567351729,
+      "total_trades": 78,
+      "win_rate": 30.76923076923077,
+      "profit_factor": 1.3412704878036141,
+      "max_drawdown_pct": -19.167798061120266,
+      "sharpe_ratio": 0.06803769352336556,
+      "avg_win": 230.63416540303965,
+      "avg_loss": -76.42311856150411,
+      "total_commission": 58.5,
+      "composite_score": 1.0
+    }
+  },
+  "baseline_500t": {
+    "return_pct": 313.88,
+    "profit_factor": 1.4005,
+    "sharpe_ratio": 0.0872,
+    "win_rate": 35.12,
+    "max_drawdown_pct": -40.53,
+    "final_capital": 8278,
+    "total_trades": 373
+  }
+}

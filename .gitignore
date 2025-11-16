@@ -67,3 +67,9 @@ Thumbs.db
 # Trading specific
 positions.json
 trades.json
+
+# Tick data
+tick_data/
+
+# Temporary repositories
+temp_project_x/

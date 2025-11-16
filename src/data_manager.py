@@ -175,6 +175,47 @@ class DataManager:
 
         return self.historical_data
 
+    def load_tick_data_from_file(
+        self,
+        symbol: str,
+        filepath: str
+    ) -> pd.DataFrame:
+        """
+        Load tick bar data from CSV file (for backtesting with tick data).
+
+        Args:
+            symbol: Instrument symbol (e.g., 'MNQ')
+            filepath: Path to CSV file with tick bar data
+
+        Returns:
+            DataFrame with OHLCV data indexed by timestamp
+        """
+        from pathlib import Path
+
+        print(f"\n[*] Loading tick data from file: {filepath}")
+
+        try:
+            # Load CSV
+            df = pd.read_csv(filepath, index_col=0, parse_dates=True)
+
+            # Ensure columns are correctly named
+            if not all(col in df.columns for col in ['open', 'high', 'low', 'close', 'volume']):
+                raise ValueError(f"CSV file missing required OHLCV columns: {df.columns}")
+
+            # Store in cache
+            self.historical_data[symbol] = df
+
+            print(f"  [OK] Loaded {len(df)} tick bars for {symbol}")
+            print(f"  [*] Date range: {df.index[0]} to {df.index[-1]}")
+            print(f"  [*] Sample: O={df.iloc[0]['open']:.2f}, H={df.iloc[0]['high']:.2f}, "
+                  f"L={df.iloc[0]['low']:.2f}, C={df.iloc[0]['close']:.2f}, V={df.iloc[0]['volume']:.0f}")
+
+            return df
+
+        except Exception as e:
+            print(f"  [ERROR] Error loading tick data from file: {e}")
+            raise
+
     def calculate_indicators(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         Calculate technical indicators on OHLCV data

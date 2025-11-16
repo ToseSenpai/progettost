@@ -1,0 +1,33 @@
+{
+  "best_rr_ratio": 2.5552007794653013,
+  "current_rr_ratio": 2.5,
+  "best_objective_score": 0.47734470103094206,
+  "objective_function": "Return (50%) + Profit Factor (30%) + Sharpe Ratio (20%)",
+  "optimal_metrics": {
+    "return_pct": 328.9110678557321,
+    "profit_factor": 1.4241474793976148,
+    "sharpe_ratio": 0.09028327853172688,
+    "win_rate": 35.05434782608695,
+    "max_drawdown_pct": -38.98746157291928,
+    "total_trades": 368
+  },
+  "current_metrics": {
+    "return_pct": 313.88442907633,
+    "profit_factor": 1.4005146582825887,
+    "sharpe_ratio": 0.08718205105717165,
+    "win_rate": 35.120643431635386,
+    "max_drawdown_pct": -40.52879944327234,
+    "total_trades": 373
+  },
+  "optimization_info": {
+    "n_trials": 50,
+    "actual_trials": 50,
+    "duration_minutes": 12.7767517,
+    "timestamp": "20251116_220533",
+    "rr_range": [
+      1.5,
+      4.5
+    ],
+    "baseline_params_file": "optimization_results\\fixed_optimizer_500t_best_params_20251116_173532.json"
+  }
+}

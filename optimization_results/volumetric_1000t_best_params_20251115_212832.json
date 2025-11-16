@@ -1,0 +1,25 @@
+{
+  "best_params": {
+    "mfi_overbought": 89,
+    "mfi_oversold": 18,
+    "st_multiplier": 3.5420895165968114,
+    "min_volume_imbalance": 0.11586019363203254,
+    "strong_imbalance": 0.39260168845183846,
+    "stop_multiplier": 2.170927459199284,
+    "target_multiplier": 4.358001721679539,
+    "min_confluence": 0.824267693280323
+  },
+  "best_sharpe": 0.28896616911567397,
+  "metrics": {
+    "return_pct": 64.54354610990791,
+    "total_trades": 169,
+    "win_rate": 46.15384615384615,
+    "profit_factor": 1.5813410062986104,
+    "max_drawdown_pct": -12.254819270949445
+  },
+  "optimization_info": {
+    "n_trials": 150,
+    "duration_minutes": 8.183475283333333,
+    "timestamp": "20251115_212832"
+  }
+}

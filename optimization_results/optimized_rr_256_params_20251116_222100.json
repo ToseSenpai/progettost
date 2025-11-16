@@ -1,0 +1,60 @@
+{
+  "best_params": {
+    "min_volume_imbalance": 0.17061609467522706,
+    "delta_slope_period": 157,
+    "buy_sell_long_threshold": 1.3454615678670163,
+    "buy_sell_short_threshold": 0.8758497325476865,
+    "buy_sell_exit_long": 0.7045741757098455,
+    "buy_sell_exit_short": 1.1671734376015819,
+    "min_confluence": 0.8071511679647423,
+    "stop_multiplier": 1.9207625277570342,
+    "exit_confluence_threshold": 0.7633359044369274,
+    "target_multiplier": 4.917152071099928,
+    "strong_imbalance": 0.34123218935045413,
+    "stacked_imbalance_ratio": 3.0,
+    "min_stacked_bars": 3,
+    "volume_ratio_threshold": 2.0,
+    "rr_ratio": 2.56
+  },
+  "best_objective_score": 0.4773,
+  "objective_function": "RR Optimization: Return (50%) + Profit Factor (30%) + Sharpe Ratio (20%)",
+  "metrics": {
+    "return_pct": 328.91,
+    "total_trades": 368,
+    "win_rate": 35.05,
+    "profit_factor": 1.4241,
+    "max_drawdown_pct": -38.99,
+    "sharpe_ratio": 0.0903,
+    "final_capital": 8578.0,
+    "avg_win": 167.57,
+    "avg_loss": -64.77
+  },
+  "optimization_info": {
+    "tick_interval": "500t",
+    "optimization_type": "Risk/Reward Ratio Only",
+    "n_trials": 50,
+    "n_workers": 5,
+    "trials_per_worker": 10,
+    "duration_minutes": 12.78,
+    "timestamp": "20251116_222100",
+    "study_name": "rr_optimization_20251116_220533",
+    "database": "optuna_rr_optimization_20251116_220533.db",
+    "strategy": "Pure Volumetric with Optimized RR 2.56:1",
+    "optimization_mode": "Multiprocessing (SQLite RDBStorage)",
+    "target": "Optimize ONLY RR ratio (1.5:1 to 4.5:1), all other params FIXED at baseline",
+    "improvements": "Volume Profile, VWAP Bands, CVD Divergence, 3:1 Ratio, RTH Filter, Confluence Exit, RR 2.56:1 (OPTIMIZED), Time Filter (14,15,16,18,19 UTC)",
+    "baseline_params_file": "fixed_optimizer_500t_best_params_20251116_173532.json",
+    "commission": 0.75,
+    "initial_capital": 2000
+  },
+  "comparison_with_baseline": {
+    "baseline_rr": 2.5,
+    "optimized_rr": 2.56,
+    "rr_improvement_pct": 2.4,
+    "return_improvement_pct": 15.03,
+    "profit_factor_improvement": 0.0236,
+    "sharpe_improvement": 0.0031,
+    "drawdown_improvement_pct": 1.54,
+    "capital_improvement": 300.0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "best_params": {
+    "min_volume_imbalance": 0.26445541231040837,
+    "delta_slope_period": 145,
+    "buy_sell_long_threshold": 1.6656902886583635,
+    "buy_sell_short_threshold": 0.8223743868061432,
+    "buy_sell_exit_long": 0.5952938269212977,
+    "buy_sell_exit_short": 1.2082596099592242,
+    "min_confluence": 0.7899908269464205,
+    "stop_multiplier": 2.7963503831505223,
+    "exit_confluence_threshold": 0.7512382829037784
+  },
+  "best_sharpe": -0.13959966650474032,
+  "metrics": {
+    "return_pct": 30.9749611334267,
+    "total_trades": 1187,
+    "win_rate": 29.90732940185341,
+    "profit_factor": 1.039578840520143,
+    "max_drawdown_pct": -41.89787625370418
+  },
+  "optimization_info": {
+    "tick_interval": "500t",
+    "n_trials": 504,
+    "actual_trials": 96,
+    "n_workers": 12,
+    "trials_per_worker": 42,
+    "duration_minutes": 11.259995733333334,
+    "timestamp": "20251116_124524",
+    "study_name": "pure_volumetric_20251116_123408",
+    "database": "optuna_20251116_123408.db",
+    "strategy": "PURE Volumetric (Order Flow Only) - IMPROVED with Research",
+    "optimization_mode": "Multiprocessing (SQLite RDBStorage)",
+    "improvements": "Volume Profile, VWAP Bands, CVD Divergence, 3:1 Ratio, RTH Filter, Confluence Exit"
+  }
+}
